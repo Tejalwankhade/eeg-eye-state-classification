@@ -6,7 +6,7 @@ import pickle
 # --------------------
 # Load saved model
 # --------------------
-with open("Eye_State_rf_model.pkl", "rb") as f:
+with open("Eye_State_rf_model.pbz2", "rb") as f:
     model = pickle.load(f)
 
 st.title("EEG Eye State Detection App 👁️")
