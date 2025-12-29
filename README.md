@@ -1,4 +1,3 @@
-# eeg-eye-state-classification
 # 👁️ EEG Eye State Classification (Random Forest + Streamlit)
 
 This project predicts **eye state (Open/Closed)** using **EEG brain signal data**.  
@@ -61,8 +60,8 @@ Model created using:
 ```python
 with bz2.BZ2File("Eye_State_model.pbz2", "wb") as f:
     pickle.dump(rf, f)
-
-How to Use the App
+```
+## How to Use the App
 
 Enter EEG feature values manually
 
@@ -73,3 +72,5 @@ Output will show:
 🟢 Eye Open
 
 🔴 Eye Closed
+
+
